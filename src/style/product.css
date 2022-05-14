@@ -1,0 +1,216 @@
+.product {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 255px;
+          flex: 0 0 255px;
+  cursor: pointer;
+  padding: 5px;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.product:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.product__img {
+  max-width: 240px;
+  min-height: 260px;
+  margin-bottom: 11px;
+}
+
+.product__img img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.product__name {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.product__detail {
+  min-height: 85px;
+  background: #F3F3F3;
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+.product__detail-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 4px 8px;
+}
+
+.product__detail-name-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 111px;
+          flex: 0 0 111px;
+  margin-top: 8px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  cursor: pointer;
+  color: #2C2C2C;
+}
+
+.product__detail-name-item--active {
+  background: white;
+}
+
+.product__detail-size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 4px 8px;
+}
+
+.product__detail-size-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80px;
+          flex: 0 0 80px;
+  cursor: pointer;
+  height: 32px;
+  margin-bottom: 8px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.product__detail-size-item--active {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.product__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__price {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.product__price span {
+  display: inline-block;
+}
+
+.product__price span:not(:first-child) {
+  margin-left: 8px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid;
+  width: 150px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #EB5A1E;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn--orange {
+  background: #FE5F1E;
+}
+
+.btn__text {
+  margin: 0 10px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #EB5A1E;
+}
+
+.btn__text--white {
+  color: white;
+}
+
+.btn__qt-product {
+  height: 22px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: 22px;
+  background: #EB5A1E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.small {
+  max-width: 780% !important;
+  width: 70% !important;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.middle {
+  max-width: 80% !important;
+  width: 80% !important;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.big {
+  max-width: 100% !important;
+  width: 100% !important;
+  display: block;
+  margin: auto;
+}
+/*# sourceMappingURL=product.css.map */

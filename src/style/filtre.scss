@@ -1,0 +1,125 @@
+.filtre{
+    width: 100%;
+    &__container{
+        min-height: 46px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    &__categorie{
+       
+       
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+    &__item-categorie{
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        cursor: pointer;
+        color: #2C2C2C;
+        padding:13px 25px;
+        background: #F9F9F9;
+        border-radius: 30px;
+        &--active{
+            background: #000;
+            color: white;
+        }
+        &:hover{
+            background: #000;
+            color: white;
+        }
+    }
+    &__trie{
+       &-body{
+           display: flex;
+           align-items: center;
+           cursor: pointer;
+       }
+       
+       &-icon{
+           margin-right: 10px;
+           padding-top:-5px ;
+           img{
+            margin-top: 2px;
+            display: block;
+           }
+       }
+       &-title{
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.015em;
+        
+        color: #2C2C2C;
+       }
+       &-selected{
+           padding-left:10px;
+           font-family: 'Proxima Nova';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 14px;
+           letter-spacing: 0.015em;
+           color: #FE5F1E;
+           margin-top: 1px;
+       }
+       &-list{
+           position: absolute;
+           top:50px;
+           right: 0;
+           width: 132px;
+           height: 136px;
+           background: #FFFFFF;
+           box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+           border-radius: 10px;
+           z-index: 1;
+       }
+       &-item{
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        
+        letter-spacing: 0.015em;
+        
+        color: #000000;
+        padding:10px 0 10px 14px;
+        
+        margin-top: 5px;
+        cursor: pointer;
+        &-selected{
+            color: #FE5F1E;
+            background: rgba(254, 95, 30, 0.05);
+            font-weight: 700;
+        }
+        &:hover{
+            color: #FE5F1E;
+            background: rgba(254, 95, 30, 0.05);
+            font-weight: 700;
+        }
+       }
+    }
+
+    @media screen and (max-width:990px) {
+        &__container{
+
+            justify-content: center;
+
+        }
+
+       &__categorie{
+           display:none;
+       }
+    }
+}

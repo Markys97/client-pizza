@@ -1,0 +1,97 @@
+.header{
+    width:100%;
+    border:1px solid #F7F7F7;
+    
+    &__container{
+        min-height:137px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        &-img{
+            margin-right: 17px;
+        }
+        &-body{
+            padding:0;
+            margin:0;
+            span{
+                display: block;
+            }
+        }
+        &-name{
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #181818;
+            
+        }
+        &-description{
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #7B7B7B;
+        }
+        
+    }
+    
+    @media (max-width:400px) {
+        &__logo{
+            &-body{
+                display:none;
+            }
+        }
+    }
+    
+}
+
+.cart{
+    width: 150px;
+    height: 50px;
+    background: #FE5F1E;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+  
+    position: relative;
+    color: #FFFFFF;
+
+    &__price{
+        
+        &-number{
+            display: inline-block;
+            margin-right: 3px;
+           
+            
+        }
+       
+        
+        
+    }
+
+    &__detail{
+        display: flex;
+        align-items: center;
+    }
+
+    &__qt-product{
+        display: inline-block;
+        margin-left: 5px;
+        margin-top:-3px;
+    }
+}

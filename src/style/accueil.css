@@ -1,0 +1,17 @@
+.gallerie {
+  width: 100%;
+}
+
+.gallerie__container {
+  padding-bottom: 50px;
+}
+
+.gallerie__title {
+  margin-bottom: 45px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+}
+/*# sourceMappingURL=accueil.css.map */

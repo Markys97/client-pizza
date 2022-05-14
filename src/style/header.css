@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+  border: 1px solid #F7F7F7;
+}
+
+.header__container {
+  min-height: 137px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo-img {
+  margin-right: 17px;
+}
+
+.header__logo-body {
+  padding: 0;
+  margin: 0;
+}
+
+.header__logo-body span {
+  display: block;
+}
+
+.header__logo-name {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.header__logo-description {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7B7B7B;
+}
+
+@media (max-width: 400px) {
+  .header__logo-body {
+    display: none;
+  }
+}
+
+.cart {
+  width: 150px;
+  height: 50px;
+  background: #FE5F1E;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.cart__price-number {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.cart__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart__qt-product {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+/*# sourceMappingURL=header.css.map */
